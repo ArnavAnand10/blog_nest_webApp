@@ -110,6 +110,7 @@ const CreatePost = () => {
 
 
         if(post.title==''|| post.description==''||post.categories==''){
+            console.log(post)
             setSnackBarType("error");
             setToOpen(true);
             showSnackBar("All Fields Are Required");
@@ -172,7 +173,7 @@ const CreatePost = () => {
                 <input onChange={(e) => setFile(e.target.files[0])} id="fileInput" style={{ display: "none" }} type="file" />
 
 
-                <input type="text" placeholder="Blog Title"  name="title" className="blog-title-input" />
+                <input type="text" placeholder="Blog Title" onChange={handlechange}  name="title" className="blog-title-input" />
 </div>
 
 <div style={{display:"flex"}} className="cont">
