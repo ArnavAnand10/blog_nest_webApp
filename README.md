@@ -64,6 +64,10 @@ Blog Nest is a full-stack web application for creating, updating, reading, and s
 
     # In the frontend directory
     npm start
+   
+## Contributing
+All contributions are welcome.
+
 
     
 
