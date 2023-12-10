@@ -2,6 +2,8 @@
 
 Blog Nest is a full-stack web application for creating, updating, reading, and sharing blogs. It is built using the MERN stack (MongoDB, Express.js, React, Node.js) and incorporates features like JWT tokens, Material-UI for styling, middleware for authentication, Axios for API requests, Cloudinary for image hosting, and more.
 
+![image](https://github.com/ArnavAnand10/blog_nest_webApp/assets/97800361/e487570d-5da9-4883-b4a9-4b5ce0d9c131)
+
 ## Features
 
 - **User Authentication**: Secure user authentication using JWT tokens.
